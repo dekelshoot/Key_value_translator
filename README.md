@@ -10,3 +10,6 @@ ou celle ci
 ```shell
 pip install -m requirements.txt
 ```
+
+## test
+exécutez le fichier ./code.py
