@@ -8,7 +8,7 @@ pip install deep_translator
 ou celle ci 
 
 ```shell
-pip install -m requirements.txt
+pip install -r requirements.txt
 ```
 
 ## test
