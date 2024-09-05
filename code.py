@@ -3,6 +3,10 @@ from deep_translator import GoogleTranslator
 file_path = 'messages.php'
 translated_file_path = 'messages_fr.php'
 
+# Reading the file content
+with open(file_path, 'r', encoding='utf-8') as file:
+    file_content = file.readlines()
+    
 # Function to translate the values from English to French in the PHP key-value pairs
 
 def translate_php_array(content, limit=100):
